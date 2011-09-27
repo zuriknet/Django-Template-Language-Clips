@@ -18,13 +18,30 @@ The Basics
 Default Django Template Tags
 ============================
 
-``autoescape + TAB`` -> autoescape off (``{% autoescape off %} ... {% endautoescape %}``)
-
-``comment + TAB`` -> multiline comment (``{% comment %} ... {% endcomment %}``)
-
-``block + TAB`` -> block (``{% block ￼ %} ... {% endblock %}``)
-
-``cache + TAB`` -> cache (``{% cache ￼ %} ... {% endcache %}``)
-
-``csrf + TAB`` -> csrf token (``{% csrf_token %}``)
-
+<table>
+    <tr>
+        <td>``autoescape + TAB``</td>
+        <td>autoescape off</td>
+        <td>``{% autoescape off %} ... {% endautoescape %}``</td>
+    </tr>
+    <tr>
+        <td>``comment + TAB``</td>
+        <td>multiline comment</td>
+        <td>``{% comment %} ... {% endcomment %}``</td>
+    </tr>
+    <tr>
+        <td>``block + TAB``</td>
+        <td>block</td>
+        <td>``{% block ￼ %} ... {% endblock %}``</td>
+    </tr>
+    <tr>
+        <td>``cache + TAB``</td>
+        <td>cache</td>
+        <td>``{% cache ￼ %} ... {% endcache %}``</td>
+    </tr>
+    <tr>
+        <td>csrf + TAB</td>
+        <td>csrf token</td>
+        <td>``{% csrf_token %}``</td>
+    </tr>
+</table>
