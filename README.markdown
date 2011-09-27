@@ -4,10 +4,10 @@ Installation
 Double click the .clips file to install into Panic Coda.
 
 Cheat Sheet
------------
+===========
 
 The Basics
-==========
+----------
 
 <table>
     <tr>
@@ -33,7 +33,7 @@ The Basics
 </table>
 
 Default Django Template Tags
-============================
+----------------------------
 
 <table>
     <tr>
@@ -44,22 +44,22 @@ Default Django Template Tags
     <tr>
         <td><kbd>autoescape + TAB</kbd></td>
         <td>autoescape off</td>
-        <td><code>{% autoescape off %} <i><foo></i> {% endautoescape %}</code></td>
+        <td><code>{% autoescape off %} ... {% endautoescape %}</code></td>
     </tr>
     <tr>
         <td><kbd>comment + TAB</kbd></td>
         <td>multiline comment</td>
-        <td><code>{% comment %} <i><foo></i> {% endcomment %}</code></td>
+        <td><code>{% comment %} ... {% endcomment %}</code></td>
     </tr>
     <tr>
         <td><kbd>block + TAB</kbd></td>
         <td>block</td>
-        <td><code>{% block <i><foo></i>￼ %} ... {% endblock %}</code></td>
+        <td><code>{% block <em><foo></em>￼ %} ... {% endblock %}</code></td>
     </tr>
     <tr>
         <td><kbd>cache + TAB</kbd></td>
         <td>cache</td>
-        <td><code>{% cache ￼<i><foo></i> %} ... {% endcache %}</code></td>
+        <td><code>{% cache ￼<em><foo></em> %} ... {% endcache %}</code></td>
     </tr>
     <tr>
         <td><kbd>csrf + TAB</kbd></td>
@@ -104,37 +104,37 @@ Default Django Template Tags
     <tr>
         <td><kbd>extends + TAB</kbd></td>
         <td>extends</td>
-        <td><code>{% extends "￼<i><foo></i>.html" %}</code></td>
+        <td><code>{% extends "￼<em><foo></em>.html" %}</code></td>
     </tr>
     <tr>
         <td><kbd>filter + TAB</kbd></td>
         <td>filter</td>
-        <td><code>{% filter <i><foo></i>￼ %} ... {% endfilter %}</code></td>
+        <td><code>{% filter <em><foo></em>￼ %} ... {% endfilter %}</code></td>
     </tr>
     <tr>
         <td><kbd>firstof + TAB</kbd></td>
         <td>firstof</td>
-        <td><code>{% firstof ￼<i><foo></i>￼ %}</code></td>
+        <td><code>{% firstof ￼<em><foo></em>￼ %}</code></td>
     </tr>
     <tr>
         <td><kbd>for + TAB</kbd></td>
         <td>for</td>
-        <td><code>{% for ￼<i><foo></i>￼ %} ... {% endfor %}</code></td>
+        <td><code>{% for ￼<em><foo></em>￼ %} ... {% endfor %}</code></td>
     </tr>
     <tr>
         <td><kbd>forempty + TAB</kbd></td>
         <td>for ... empty</td>
-        <td><code>{% for ￼<i><foo></i>￼ %} ... {% empty %} ... {% endfor %}</code></td>
+        <td><code>{% for ￼<em><foo></em>￼ %} ... {% empty %} ... {% endfor %}</code></td>
     </tr>
     <tr>
         <td><kbd>if + TAB</kbd></td>
         <td>if</td>
-        <td><code>{% if <i><foo></i>￼￼ %} ... {% endif %}</code></td>
+        <td><code>{% if <em><foo></em>￼￼ %} ... {% endif %}</code></td>
     </tr>
     <tr>
         <td><kbd>ifelse + TAB</kbd></td>
         <td>if ... else</td>
-        <td><code>{% if <i><foo></i>￼￼￼ %} ... {% else %} ... {% endif %}</code></td>
+        <td><code>{% if <em><foo></em>￼￼￼ %} ... {% else %} ... {% endif %}</code></td>
     </tr>
     <tr>
         <td><kbd>ifchanged + TAB</kbd></td>
@@ -144,7 +144,7 @@ Default Django Template Tags
     <tr>
         <td><kbd>ifequal + TAB</kbd></td>
         <td>ifequal</td>
-        <td><code>{% ifequal <i><foo></i>￼￼￼￼ %} ... {% endifequal %}</code></td>
+        <td><code>{% ifequal <em><foo></em>￼￼￼￼ %} ... {% endifequal %}</code></td>
     </tr>
     <tr>
         <td><kbd></kbd></td>
