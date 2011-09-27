@@ -1,5 +1,5 @@
 Installation
-------------
+============
 
 Double click the .clips file to install into Panic Coda.
 
