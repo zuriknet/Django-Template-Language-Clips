@@ -54,12 +54,12 @@ Default Django Template Tags
     <tr>
         <td><kbd>block + TAB</kbd></td>
         <td>block</td>
-        <td><code>{% block <em><foo></em>￼ %} ... {% endblock %}</code></td>
+        <td><code>{% block <em>foo</em>￼ %} ... {% endblock %}</code></td>
     </tr>
     <tr>
         <td><kbd>cache + TAB</kbd></td>
         <td>cache</td>
-        <td><code>{% cache ￼<em><foo></em> %} ... {% endcache %}</code></td>
+        <td><code>{% cache ￼<em>foo</em> %} ... {% endcache %}</code></td>
     </tr>
     <tr>
         <td><kbd>csrf + TAB</kbd></td>
@@ -104,37 +104,37 @@ Default Django Template Tags
     <tr>
         <td><kbd>extends + TAB</kbd></td>
         <td>extends</td>
-        <td><code>{% extends "￼<em><foo></em>.html" %}</code></td>
+        <td><code>{% extends "￼<em>foo</em>.html" %}</code></td>
     </tr>
     <tr>
         <td><kbd>filter + TAB</kbd></td>
         <td>filter</td>
-        <td><code>{% filter <em><foo></em>￼ %} ... {% endfilter %}</code></td>
+        <td><code>{% filter <em>foo</em>￼ %} ... {% endfilter %}</code></td>
     </tr>
     <tr>
         <td><kbd>firstof + TAB</kbd></td>
         <td>firstof</td>
-        <td><code>{% firstof ￼<em><foo></em>￼ %}</code></td>
+        <td><code>{% firstof ￼<em>foo</em>￼ %}</code></td>
     </tr>
     <tr>
         <td><kbd>for + TAB</kbd></td>
         <td>for</td>
-        <td><code>{% for ￼<em><foo></em>￼ %} ... {% endfor %}</code></td>
+        <td><code>{% for ￼<em>foo</em>￼ %} ... {% endfor %}</code></td>
     </tr>
     <tr>
         <td><kbd>forempty + TAB</kbd></td>
         <td>for ... empty</td>
-        <td><code>{% for ￼<em><foo></em>￼ %} ... {% empty %} ... {% endfor %}</code></td>
+        <td><code>{% for ￼<em>foo</em>￼ %} ... {% empty %} ... {% endfor %}</code></td>
     </tr>
     <tr>
         <td><kbd>if + TAB</kbd></td>
         <td>if</td>
-        <td><code>{% if <em><foo></em>￼￼ %} ... {% endif %}</code></td>
+        <td><code>{% if <em>foo</em>￼￼ %} ... {% endif %}</code></td>
     </tr>
     <tr>
         <td><kbd>ifelse + TAB</kbd></td>
         <td>if ... else</td>
-        <td><code>{% if <em><foo></em>￼￼￼ %} ... {% else %} ... {% endif %}</code></td>
+        <td><code>{% if <em>foo</em>￼￼￼ %} ... {% else %} ... {% endif %}</code></td>
     </tr>
     <tr>
         <td><kbd>ifchanged + TAB</kbd></td>
@@ -144,7 +144,7 @@ Default Django Template Tags
     <tr>
         <td><kbd>ifequal + TAB</kbd></td>
         <td>ifequal</td>
-        <td><code>{% ifequal <em><foo></em>￼￼￼￼ %} ... {% endifequal %}</code></td>
+        <td><code>{% ifequal <em>foo</em>￼￼￼￼ %} ... {% endifequal %}</code></td>
     </tr>
     <tr>
         <td><kbd></kbd></td>
