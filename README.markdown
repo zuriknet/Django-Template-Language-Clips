@@ -54,12 +54,12 @@ Default Django Template Tags
     <tr>
         <td><kbd>block + TAB</kbd></td>
         <td>block</td>
-        <td><code>{% block <em>foo</em>￼ %} ... {% endblock %}</code></td>
+        <td><code>{% block <i>foo</i>￼ %} ... {% endblock %}</code></td>
     </tr>
     <tr>
         <td><kbd>cache + TAB</kbd></td>
         <td>cache</td>
-        <td><code>{% cache ￼<em>foo</em> %} ... {% endcache %}</code></td>
+        <td><code>{% cache ￼<i>foo</i> %} ... {% endcache %}</code></td>
     </tr>
     <tr>
         <td><kbd>csrf + TAB</kbd></td>
@@ -104,37 +104,37 @@ Default Django Template Tags
     <tr>
         <td><kbd>extends + TAB</kbd></td>
         <td>extends</td>
-        <td><code>{% extends "￼<em>foo</em>.html" %}</code></td>
+        <td><code>{% extends "￼<i>foo</i>.html" %}</code></td>
     </tr>
     <tr>
         <td><kbd>filter + TAB</kbd></td>
         <td>filter</td>
-        <td><code>{% filter <em>foo</em>￼ %} ... {% endfilter %}</code></td>
+        <td><code>{% filter <i>foo</i>￼ %} ... {% endfilter %}</code></td>
     </tr>
     <tr>
         <td><kbd>firstof + TAB</kbd></td>
         <td>firstof</td>
-        <td><code>{% firstof ￼<em>foo</em>￼ %}</code></td>
+        <td><code>{% firstof ￼<i>foo</i>￼ %}</code></td>
     </tr>
     <tr>
         <td><kbd>for + TAB</kbd></td>
         <td>for</td>
-        <td><code>{% for ￼<em>foo</em>￼ %} ... {% endfor %}</code></td>
+        <td><code>{% for ￼<i>foo</i>￼ %} ... {% endfor %}</code></td>
     </tr>
     <tr>
         <td><kbd>forempty + TAB</kbd></td>
         <td>for ... empty</td>
-        <td><code>{% for ￼<em>foo</em>￼ %} ... {% empty %} ... {% endfor %}</code></td>
+        <td><code>{% for ￼<i>foo</i>￼ %} ... {% empty %} ... {% endfor %}</code></td>
     </tr>
     <tr>
         <td><kbd>if + TAB</kbd></td>
         <td>if</td>
-        <td><code>{% if <em>foo</em>￼￼ %} ... {% endif %}</code></td>
+        <td><code>{% if <i>foo</i>￼￼ %} ... {% endif %}</code></td>
     </tr>
     <tr>
         <td><kbd>ifelse + TAB</kbd></td>
         <td>if ... else</td>
-        <td><code>{% if <em>foo</em>￼￼￼ %} ... {% else %} ... {% endif %}</code></td>
+        <td><code>{% if <i>foo</i>￼￼￼ %} ... {% else %} ... {% endif %}</code></td>
     </tr>
     <tr>
         <td><kbd>ifchanged + TAB</kbd></td>
@@ -144,21 +144,56 @@ Default Django Template Tags
     <tr>
         <td><kbd>ifequal + TAB</kbd></td>
         <td>ifequal</td>
-        <td><code>{% ifequal <em>foo</em>￼￼￼￼ %} ... {% endifequal %}</code></td>
+        <td><code>{% ifequal <i>foo</i>￼￼￼￼ %} ... {% endifequal %}</code></td>
     </tr>
     <tr>
-        <td><kbd></kbd></td>
-        <td></td>
-        <td><code></code></td>
+        <td><kbd>ifnotequal + TAB</kbd></td>
+        <td>ifnotequal</td>
+        <td><code>{% ifnotequal <i>foo</i>￼ %} ... {% endifnotequal %}</code></td>
     </tr>
     <tr>
-        <td><kbd></kbd></td>
-        <td></td>
-        <td><code></code></td>
+        <td><kbd>include + TAB</kbd></td>
+        <td>include</td>
+        <td><code>{% include "<i>foo</i>￼.html" %}</code></td>
     </tr>
     <tr>
-        <td><kbd></kbd></td>
-        <td></td>
-        <td><code></code></td>
+        <td><kbd>load + TAB</kbd></td>
+        <td>load</td>
+        <td><code>{% load <i>foo</i>￼ %}</code></td>
+    </tr>
+    <tr>
+        <td><kbd>now + TAB</kbd></td>
+        <td>now</td>
+        <td><code>{% now "r" %}</code></td>
+    </tr>
+    <tr>
+        <td><kbd>regroup + TAB</kbd></td>
+        <td>regroup</td>
+        <td><code>{% regroup ￼<i>foo</i> %}</code></td>
+    </tr>
+    <tr>
+        <td><kbd>spaceless + TAB</kbd></td>
+        <td>spaceless</td>
+        <td><code>{% spaceless %} ... {% endspaceless %}</code></td>
+    </tr>
+    <tr>
+        <td><kbd>ssi + TAB</kbd></td>
+        <td>ssi</td>
+        <td><code>{% ssi <i>foo</i>￼ %}</code></td>
+    </tr>
+    <tr>
+        <td><kbd>url + TAB</kbd></td>
+        <td>url</td>
+        <td><code>{% url <i>foo</i>￼ %}</code></td>
+    </tr>
+    <tr>
+        <td><kbd>widthratio + TAB</kbd></td>
+        <td>widthratio</td>
+        <td><code>{% widthratio <i>foo</i>￼ %}</code></td>
+    </tr>
+    <tr>
+        <td><kbd>with + TAB</kbd></td>
+        <td>with</td>
+        <td><code>{% with ￼<i>foo</i> %} ... {% endwith %}</code></td>
     </tr>
 </table>
